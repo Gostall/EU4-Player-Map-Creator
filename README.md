@@ -11,13 +11,10 @@
   
 # What programming language?
   player_map_creator.py is written in Python 2.7.13 and uses the Image module. (which must be downloaded seperately)
- 
-# What are all these other files?
- -README.md is this one, explaining everything.
- -player_map_creator.py is the python program that does all the things
- -player_country_list.txt is a text file containing the list of countries 
- -image_names.txt
 
 # How do I run it?
   You need to have python version 2.7 installed first (https://www.python.org/download/releases/2.7/). Then, in the command shell, enter "pip install Image" to get the Image module. Navigate to whatever directory your program is saved in (using "cd something\something\something") and run it with the command ("python player_map_creator.py").
   
+  Before running it you must modify some of the text files. You also need a map screenshot in the same directory as the program. The formatting of the text files are important, see formatting.txt.  You modify player_country_list.txt with the list of player countries you want.  In eu4_directory.txt you put you EU4 game directory.  In image_names.txt you put both the original map and the output map file names.
+  
+  Once you've modified these properly, run the program and you'll see your map. If you run into any errors contact me, Ghostowl657.
